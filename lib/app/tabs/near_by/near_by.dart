@@ -14,7 +14,7 @@ class NearBy extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Text(
-              'Learning maps...',
+              'Loading Maps...',
               style: TextStyle(
                 fontSize: 20.0,
               ),

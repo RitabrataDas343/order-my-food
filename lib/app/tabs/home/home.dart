@@ -19,21 +19,21 @@ class Home extends StatelessWidget {
       'image': 'images/plate-002.png'
     },
     {
-      'name': 'Rice and meat',
+      'name': 'Chilli Chicken with Rice',
       'price': '130.00',
       'rate': '4.8',
       'clients': '150',
       'image': 'images/plate-003.png'
     },
     {
-      'name': 'Vegan food',
+      'name': 'Vegan Dish',
       'price': '400.00',
       'rate': '4.2',
       'clients': '150',
       'image': 'images/plate-007.png'
     },
     {
-      'name': 'Rich food',
+      'name': 'Bonanza Mart',
       'price': '1000.00',
       'rate': '4.6',
       'clients': '10',
@@ -51,7 +51,7 @@ class Home extends StatelessWidget {
       'image': 'images/Icon-002.png',
     },
     {
-      'name': 'Fastfood',
+      'name': 'Bevarages',
       'image': 'images/Icon-003.png',
     },
     {
@@ -80,7 +80,7 @@ class Home extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    'What would you like to eat?',
+                    'Order My Food',
                     style: TextStyle(fontSize: 21.0),
                   ),
                   Icon(Icons.notifications_none, size: 28.0)
@@ -114,7 +114,7 @@ class Home extends StatelessWidget {
                     size: 28.0,
                     color: theme.primaryColor,
                   ),
-                  hintText: 'Find a food or Restaurant',
+                  hintText: 'Find a Restaurant',
                   hintStyle: TextStyle(
                     color: Colors.grey[400],
                     fontSize: 19.0,
@@ -220,15 +220,15 @@ class Home extends StatelessWidget {
                 top: 35.0,
               ),
               child: Text(
-                'Best Food',
+                'Tandoori Roti',
                 style: TextStyle(fontSize: 21.0),
               ),
             ),
             GestureDetector(
               onTap: () {
                 Map<String, String> localProduct = {
-                  'name': 'The number one!',
-                  'price': '26.00',
+                  'name': 'Tandoori Roti',
+                  'price': '30.00',
                   'rate': '5.0',
                   'clients': '150',
                   'image': 'images/plate-005.jpg'
@@ -295,7 +295,7 @@ class Home extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
                             Text(
-                              'The number one!',
+                              'The Number One!',
                               style: TextStyle(
                                 fontSize: 18.0,
                               ),

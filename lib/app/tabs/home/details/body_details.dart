@@ -31,7 +31,7 @@ Widget detailsTab() {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 15.0),
           child: Text(
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut enim leo. In sagittis velit nibh. Morbi sollicitudin lorem vitae nisi iaculis,sit amet suscipit orci mollis. Ut dictum lectus eget diam vestibulum, at eleifend felis mattis. Sed molestie congue magna at venenatis. In mollis felis ut consectetur consequat.',
+            'Tandoori chicken at its best! This easy recipe helps you make incredibly tender, juicy, moist and outrageously delicious Tandoori chicken. This mind-blowing way of grilling chicken is immensely popular in the Indian restaurants & is known as Tandoori Murgh. It is eaten with Cilantro Chutney or Mint Chutney. Indian food lovers keep going back to the restaurants time and again, not knowing it is the simplest that can be made at home.',
           ),
         ),
         Container(
@@ -120,7 +120,7 @@ Widget renderCardReview() {
                     ),
                   ),
                   Text(
-                    'December 14, 2019',
+                    'December 01, 2022',
                     style: TextStyle(
                       color: Colors.grey[400],
                     ),
@@ -136,7 +136,7 @@ Widget renderCardReview() {
             top: 2.0,
           ),
           child: Text(
-            'Cras ac nunc pretium, lacinia lorem ut, congue metus. Aenean vitae lectus at mauris eleifend placerat. Proin a nisl ut risus euismod ultrices et sed dui.',
+            'Cilantro Chutney made with fresh cilantro and basic spices. You just need 5 mins and 6 ingredients to whip up this flavor-packed Indian chutney. This cilantro chutney is bright, refreshing & delicious with just anything. Serve it with Sandwiches, Samosas, Pakoras, Cutlets, Dhokla, Kathi rolls or with any kind of snacks you love. Cilantro chutney also goes well with Grilled veggies, Paneer Tikka and grilled meat. No matter you use it as a dip or a spread, you will just love it for the amazing flavors.',
             style: TextStyle(
               fontSize: 13.0,
             ),
@@ -307,7 +307,7 @@ class _BodyDetailsState extends State<BodyDetails>
                             borderRadius: BorderRadius.circular(5.0),
                           ),
                           child: Text(
-                            'Add To Bad',
+                            'Add To Cart',
                             style: TextStyle(
                               fontSize: 18.0,
                               color: Colors.white,
@@ -344,7 +344,7 @@ class _BodyDetailsState extends State<BodyDetails>
                           height: 25.0,
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            'DETAILES',
+                            'DETAILS',
                           ),
                         ),
                         Container(

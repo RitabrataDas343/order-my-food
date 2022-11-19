@@ -10,15 +10,15 @@ class _CartState extends State<Cart> with TickerProviderStateMixin {
   TabController _tabController;
   final List<Map<String, String>> foods = [
     {
-      'name': 'Rice and meat',
+      'name': 'Chilli Chicken with Rice',
       'price': '130.00',
       'rate': '4.8',
       'clients': '150',
       'image': 'images/plate-003.png'
     },
     {
-      'name': 'Vegan food',
-      'price': '400.00',
+      'name': 'Egg Rice and Chow',
+      'price': '200.00',
       'rate': '4.2',
       'clients': '150',
       'image': 'images/plate-007.png'
